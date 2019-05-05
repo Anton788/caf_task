@@ -19,7 +19,7 @@ vector<int> Prefix_Function(string& s) {
 }
 
 void Algorithm(string& pattern){
-    pattern += '#';
+    pattern += '#'; // Символ, которого нету в тексте.
     vector<int> pref_pattern = Prefix_Function(pattern);
     char a;
     int counter = 0;
